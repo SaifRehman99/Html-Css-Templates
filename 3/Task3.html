@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 3</title>
+</head>
+<style>
+body{
+    margin:0%;
+    padding: 0%;
+}
+
+.main{
+	width:1100px;
+	margin:0% auto;
+}
+.menu {
+    float: left;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.menu li {
+    list-style: none;
+    display: block;
+    display: inline-block;  
+    padding: 20px;
+    font-size: 18px;
+    
+    }
+
+    .logo  {
+    float:left;
+    
+}
+
+.num {
+    background-color: #FE4B01;
+    width: 17%;
+    height: 60px;
+    float: right;
+
+    
+}
+
+
+.icon p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    padding-left: 15%
+} 
+.icon img{
+    float: left;
+padding-top: 10%;
+margin-left: 7%
+}
+
+.en {
+    float: right;    
+    background-color: black;
+    width: 60px;
+    height: 60px;
+}
+.en p {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+.menu a:hover{
+    color: black;
+    background: #FE4B01;
+}
+.saif{
+    font-weight: bold;
+    font-weight: 900;
+    color: gray;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a:hover{
+    color: #FE3801;
+}
+.clr {
+    clear: both;
+}
+.page1{
+    background:url(IMG/contentimg.png) ;
+    height: 720px; 
+ background-size: cover;
+
+}
+.page1-text {
+    width: 48%;  
+    padding-top:  25%;
+}
+.page1-text h1,p {
+    color: white
+
+}
+.page1-text h1 {
+    font-size: 40px;
+}
+.page1-text p {
+    font-size: 20px;
+}
+.box{
+    width: 30%;
+    /* padding: 10% */
+}
+.box ul {
+    display: inline-block;
+    padding: 160px 20px 0px 0px;  
+    
+}
+.box li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+    
+    }
+.box img {
+    width: 160%; 
+}
+.page2 {
+    padding: 80px;
+}
+.menu2{
+    padding: 22px;
+    border: 0px solid;
+    margin: 10px;
+    float: left;
+    box-shadow: 0px 3px 8px;
+}
+.menu2 img{
+    padding-left:35px;
+}
+.menu2:hover {
+    transform: scale(1.2);
+
+}
+.page2Con{
+    background: url(IMG/bannerimg.png) no-repeat;
+    height: 620px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 0px;
+    
+    
+}
+.c{
+    width: 45%;
+    float: right;
+    padding-top: 150px;
+    
+    
+}
+.c h1{
+    color: #FE5701;
+    font-size: 40px;
+}
+.c p {
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+}
+.page3Con{
+    background-color:#FE4201;
+    height: 90px;
+
+}
+.text h1 {
+    margin: 0%;
+    padding: 25px;
+}
+.heading h1{
+    color: #FE3801;
+    text-align: center;
+    font-size: 40px;
+}
+.blogpic{
+    float: left;
+    width: 340px;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    height: 380px;
+}
+.blogpic h2{
+    color: #FE3801;
+        
+}
+.blogpic p {
+    color: black;
+    font-weight: bold;
+}
+.blogpic a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.blogpic a:hover{
+    background: #FE3801;
+}
+.footer {
+    background: url(IMG/footer.png);
+    background-size: cover;
+    height: 590px;
+}
+.footer h1 {
+    color: white;
+}
+.footer-Text{
+    width: 270px;
+    padding-top: 160px;
+
+}
+.footer2 p {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.form-1{
+    float: right;
+    width: 590px;
+    margin-top: 180px;
+    
+}
+.form-1 label input {
+    width: 48.3%;
+    background:none;
+    border: none;
+    border: solid 1px whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.form-1 input{
+    width: 97%;
+    background: none;
+    border: none;
+    padding: 10px;
+    border: solid 1px whitesmoke;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.form-1 textarea {
+    width: 97%;
+    background: none;
+    border: solid 1px whitesmoke;
+    box-sizing: border-box;
+    padding: 10px;
+   
+   margin-bottom: 10px;
+
+}
+.form-1 button {
+    background: none;
+    color:black;
+    border: none;
+    border: solid 1px #fff;   
+    width: 20%;
+    font-size:20px;
+    padding:10px 30px;
+}
+
+
+</style>
+<body>
+    <div class="contianer">
+        <div class="header">
+            <div class="main">
+                <div class="logo">
+                        <img src="IMG/logo.png" alt="">
+                        <br>
+                        <br>
+                        <a  class="saif" class="sf" href="https://www.fiverr.com/saifrehman99" target="_blank"> Designed by Saif Rehman </a>
+              
+
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Porfolio</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="en">
+                        <p>EN</p>
+                    </div>
+                <div class="num">
+                        <div class="icon">
+                                    <img src="IMG/phone.png" alt="">
+                                    <p>0900-786-01</p>
+                        
+                        </div>
+                    
+                </div>
+                
+               
+            </div>
+            <div class="clr"></div>
+        </div>
+        <div class="content">
+            <div class="page1">
+                <div class="main">
+                    <div class="page1-text">
+                        <h1>Lorem Ipsum began as scrambled.</h1>
+                        <p>Lorem ipsum dolor sit amet, qui an vitae aliquam salutandi, sit bonorum oportere percipitur et. Etiam ceteros scripserit quo et.</p>
+                    </div>
+                    <div class="box">
+                        <ul>
+                                <li><a href="#"><img src="IMG/toggle.png" alt=""></a></li>
+                                <li><a href="#"><img src="IMG/toggle.png" alt=""></a></li>
+                                <li><a href="#"><img src="IMG/toggle.png" alt=""></a></li>
+                                <li><a href="#"><img src="IMG/toggle.png" alt=""></a></li>
+                                <li><a href="#"><img src="IMG/toggle.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page2">
+                <div class="main">
+                    <div class="menu2">
+                        <img src="IMG/box1.png" alt="">
+                        <h4>Lorem Ipsum Dolor</h4>
+                    </div>
+                    <div class="menu2">
+                            <img src="IMG/box2.png" alt="">
+                            <h4>Lorem Ipsum Dolor</h4>
+                        </div>
+                        <div class="menu2">
+                                <img src="IMG/box3.png" alt="">
+                                <h4>Lorem Ipsum Dolor</h4>
+                            </div>
+                            <div class="menu2">
+                                    <img src="IMG/box4.png" alt="">
+                                    <h4>Lorem Ipsum Dolor</h4>
+                                </div>
+                                <div class="menu2">
+                                        <img src="IMG/box5.png" alt="">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                    </div>
+                                    
+
+                </div>
+            </div>
+                <div class="clr"></div>
+                <div class="page2Con">
+                    <div class="main">
+                        <div class="c">
+                            <h1>Lorem Ipsum Dolor</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                                            
+                    </div>
+                    <div class="page3Con">
+                        <div class="main">
+                            <div class="text">
+                                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h1>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="blog">
+                        <div class="main">
+                            <div class="heading">
+                                <h1>Blogs & Posts</h1>
+                            </div>
+                            <div class="box2">
+                                <div class="blogpic">
+                                    <img src="IMG/img1.png" alt="">
+                                    <h2>Lorem Ipsum began</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">
+                                        READ MORE
+                                    </a>
+                                </div>
+                                <div class="blogpic">
+                                        <img src="IMG/img2.png" alt="">
+                                        <h2>Lorem Ipsum began</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">
+                                        READ MORE
+                                    </a>
+                                    </div>
+                                    <div class="blogpic">
+                                            <img src="IMG/img3.png" alt="">
+                                            <h2>Lorem Ipsum began</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">
+                                        READ MORE
+                                    </a>
+                                        </div>
+                                        <div class="blogpic">
+                                                <img src="IMG/img4.png" alt="">
+                                                <h2>Lorem Ipsum began</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">
+                                        READ MORE
+                                    </a>
+                                            </div>
+                                            <div class="blogpic">
+                                                    <img src="IMG/img5.png" alt="">
+                                                    <h2>Lorem Ipsum began</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">
+                                        READ MORE
+                                    </a>
+                                                </div>
+                                                <div class="blogpic">
+                                                        <img src="IMG/img6.png" alt="">
+                                                        <h2>Lorem Ipsum began</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="#">
+                                        READ MORE
+                                    </a>
+                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+    <div class="footer">
+            <div class="form">
+                    <div class="main">
+                        <div class="form-1">
+                        <label>
+                                <input type="text" placeholder="name"/>
+                                <input type="text" placeholder="name"/>
+                                </label>
+                                <input type="text" placeholder="name"/>
+                                <textarea  placeholder="name"></textarea>
+                                <button>send</button>
+                </div>
+            </div>
+            </div>
+        <div class="main">
+            <div class="footer-Text">
+                <h1>Contacts</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                <p><img src="IMG/phone.png" alt="">0900-786-01</p>
+                <p><img src="IMG/mail.png" alt="">www.freedeisgnstore.com</p>
+                <div class="icons">
+                    <img src="IMG/gmail.png" alt="">
+                    <img src="IMG/fb.png" alt="">
+                    <img src="IMG/in.png" alt="">
+                    <img src="IMG/tw.png" alt=""> 
+                </div>
+
+            </div>
+            <div class="clr"></div>
+            
+        </div>
+        <!-- <div class="clr"></div> -->
+        <div class="footer2">
+                <div class="main">
+                    <p>2018 freevectorstore.com - All Rights Reserved</p>
+                </div>
+            </div>
+
+    </div>
+    
+</div>
+        
+</body>
+</html>

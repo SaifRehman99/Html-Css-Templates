@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: 1210px;
+	margin: 0 auto;
+}
+.main1 {
+    width: 1120px;
+    margin: 0 auto;
+}
+.header{
+    background: white;
+    padding: 14px 0px;
+}
+.clr{
+	clear:both;
+}
+.hlogo{
+    float: left;
+}
+.hlogo img{
+    width: 140px;
+}
+.menu{
+	float:left;
+}
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px 40px 0px 110px;
+}
+.menu li{
+    float: left;
+    padding: 11px 2px;
+}
+.menu li a{
+    padding: 28px 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+	transition: 0.5s;
+}
+.menu li a:hover{
+	background-color: #075f6e;
+	color: white;
+}
+.contact{
+    float: left;
+    padding: 4px 0px;
+}
+.contact1{
+    height: 20px;
+    padding: 5px;
+    background-color: #f2f0ef;
+    float: left;
+}
+.contact1 a{
+    color: black;
+}
+.contact1 img {
+	float:left;
+    width: 13px;
+}
+.contact p{
+    float: left;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+.contact2{
+    height: 20px;
+    padding: 5px;
+    background-color: #f2f0ef;
+    float: left;
+    margin-left: 6px;
+}
+.contact2 a{
+    color: black;
+}
+.contact2 img {
+	float:left;
+    width: 22px;
+    margin-top: 2px;
+}
+.contact p{
+    float: left;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+.bannertext{
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	height: 680px;
+}
+.bannertext h1 {
+    color: white;
+    margin: 0px;
+    padding-top: 300px;
+    font-size: 40px;
+}
+.bannertext address {
+    color: white;
+    font-family: arial;
+    padding: 10px 0px 30px 0px;
+}
+.bannertext{
+	text-align:center;
+}
+.bannertext a {
+    padding: 12px 45px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    background: #075b69;
+	transition: 0.5s;
+}
+.bannertext a:hover{
+    background: #ed491c;
+}
+.box1 {
+    width: 33%;
+    text-align: center;
+    float: left;
+    padding: 0px 2px 0px 0px;
+    position: relative;
+    top: -40px;
+	transition: 0.6s;
+}
+.blogo {
+	float: left;
+    background: #eaeaea;
+    padding: 18px 20px;
+    height: 360px;
+    width: 332px;
+}
+.box1 p {
+    width: 260px;
+    padding: 0px 35px 15px 35px;
+}
+.box1:hover {
+    position: relative;
+    top: -90px;
+}
+.blogo:hover {
+    background: #d1cece;
+}
+.blogo a:hover {
+    background: #ed491c;
+	height: 360px;
+}
+.blogo a{
+	padding: 12px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    background: #075b69;
+	transition: 0.2s;
+}
+.clr{
+	clear:both;
+}
+.banner2 {
+    background-color: whitesmoke;
+    padding-top: 28px;
+    height: 420px;
+}
+.span {
+    width: 450px;
+    padding: 16px 120px;
+    color: white;
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+	text-align:left;
+}
+.banner2-text{
+	position:relative;
+	text-align: center;
+}
+.banner3{
+	
+}
+.b3-text{
+	margin: 54px 0px;
+}
+.b3-text h1{
+	text-align: center;
+	background: url(../img/h1u.png) no-repeat bottom center;
+	padding-bottom: 4px;
+	color: #075b69;
+}
+.b3-items{
+	float: left;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.b3-items img{
+    border-radius: 100%;
+    width: 200px;
+	border:10px solid #dae7e9;
+	margin:0px 0px 20px 0px;
+}
+.b3-items h1{
+    margin: 0px;
+    font-size: 22px;
+	color: #075b69;
+}
+.b3-items p{
+    font-size: 15px;
+    width: 277px;
+    color: #f16d49;
+}
+.b4{
+	background-color: #e1e4e4;
+	padding-bottom: 40px;
+}
+.b4-msg{
+	float: left;
+}
+.b4-text{
+	padding: 30px 0px;
+}
+.b4-text h1{
+    color: #075b69;
+    text-align: center;
+    font-size: 25px;
+    background: url(../img/h1u.png) no-repeat bottom center;
+    padding-bottom: 8px;
+}
+.b4-msg p{
+    width: 320px;
+    background: url(../img/b4txbg.png) no-repeat;
+    height: 120px;
+    padding: 25px 15px;
+    font-size: 15px;
+    margin: 10px;
+}
+.b4-msg img{
+    border-radius: 100%;
+	float: left;
+	margin-right: 15px;
+}
+.b4-msg h3{
+    margin: 15px 0px 10px 0px;
+	color: #075b69;
+}
+.b4-msg h5{
+    width: 210px;
+    margin: 0px;
+	color: #ed491c;
+}
+.b5{
+    background-color: #f2f1f1;
+}
+.b5 img{
+    padding: 25px 20px;
+}
+.footer1{
+	background-color: #074853;
+}
+.flogo{
+    width: 900px;
+    float: left;
+}
+.flogo #logo{
+    width: 170px;
+    margin: 25px 0px;
+}
+.share{
+    width: 165px;
+    float: left;
+    padding-top: 30px;
+}
+.share img{
+    width: 36px;
+    border-radius: 6px;
+    padding: 0px 1px;
+}
+.footer2{
+	background: #075c6a;
+}
+.fbox1{
+    width: 240px;
+    color: white;
+    padding: 30px 10px;
+    float: left;
+}
+.fbox1 h3s{
+    margin: 0px 0px 15px 0px;
+}
+.fbox1 li{
+    list-style: none;
+    padding: 8px 0px;
+}
+.fbox1 li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.fbox1 li img{
+    margin-right: 10px;
+	float: left;
+}
+.fbox1 a:hover{
+    color: white;
+}
+
+.fbox2{
+    width: 240px;
+    color: white;
+    padding: 95px 0px 0px 0px;
+    float: left;
+}
+.fbox2 li{
+    list-style: none;
+    padding: 8px 0px;
+}
+.fbox2 li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.fbox2 a:hover{
+    color: white;
+}
+.fbox3{
+    width: 240px;
+    color: white;
+    padding: 94px 10px;
+    float: left;
+}
+.fbox3 img{
+	float: left;
+}
+.fbox3 span{
+	float: right;
+	width: 218px;
+}
+.fbox3 p{
+	margin: 0px;
+}
+.end{
+	background-color: #074853;
+	text-align: center;
+}
+.copyright p{
+    margin: 0px;
+    padding: 12px 0px;
+    color: white;
+}
